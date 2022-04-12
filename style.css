@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@0,400;1,900&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    background-color: #ffffff;
+
+}
+
+/*************************************************/
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #241a1a61;
+}
+.logo{
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+.logo a{
+    font-family: "Rubik Wet Paint", cursive;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: -660px;
+    transition: all 0.2s ease 0s;
+    z-index: 999;
+
+}
+.logo a:hover{
+
+    color: rgb(173, 28, 28);
+
+}
+.nav-links{
+
+    display: flex;   
+    justify-content: space-around;
+    width: 300px;
+
+}
+
+.nav-links li{
+
+    list-style: none;
+
+}
+
+.nav-links a{
+    font-family: 'Rubik Wet Paint', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s ease;
+
+}
+.nav-links a:hover{
+
+    color: rgb(173, 28, 28);
+
+}
+
+
+/*************************************************/
+
+.main h2{
+    
+    font-size: 23px;
+    margin-top: 38px;
+    margin-bottom: 7px;
+    display: flex;
+    color: #a50000;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 250px;
+}
+.main h3{
+    font-family: 'Oswald', sans-serif;
+
+    text-align: center;
+    color: #672a06;
+    font-size: 19px;
+    margin-bottom: 7px;
+    font-family: Oswald, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 250px;
+
+    
+
+}
+
+.main .btn-Discord{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background: #00000040;
+    padding: 10px 34px;
+    border-radius: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+    
+}
+
+.main .btn-Discord:hover{
+
+    
+    color: #ff0000;
+    background: #535254;
+    border-radius: 10px ;
+
+}
+
+.main .btn-TITLE{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background: #00000040;
+    padding: 10px 34px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    
+}
+
+.main .btn-TITLE:hover{
+    
+    color: #ff0000;
+    background: #535254;
+    border-radius: 10px ;
+
+
+}
+
+.main .object{
+
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+
+}
+
+.min-div{
+
+    margin-left: 42px;
+
+}
+
+div video{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+@media only screen and (max-width: 835px) {
+ 
+    
+    .min-div {
+        margin-left: -251px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #061218;
+  mix-blend-mode: overlay;
+  z-index: -1;
+  /*#5acbff*/
+}
+
+@media only screen and (max-width: 641px) {
+    .toggle
+    {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      background: url(https://i.ibb.co/HrfVRcx/menu.png);
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center;
+      cursor: pointer;
+    }
+    .toggle.active
+    {
+      background: url(https://i.ibb.co/rt3HybH/close.png);
+      background-repeat: no-repeat;
+      background-size: 25px;
+      background-position: center;
+      cursor: pointer;
+    }
+     
+}
+
+.image{
+    width: 59px;
+    display: inline-block;
+    margin-left: -892px;
+    object-fit: cover;
+    z-index: 999;
+
+}
+
+@media only screen and (max-width: 1178px){
+    
+    body{
+
+        display: none;
+        background-color: #061218;
+        z-index: 999;
+    }
+
+}
